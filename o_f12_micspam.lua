@@ -11,7 +11,7 @@ end
 local handler = nil
 local timer, enabled = 0, true
 
-local snd_time = 0.6
+local snd_time = 1.5
 
 handler = function()
     if globals.realtime() >= timer then
